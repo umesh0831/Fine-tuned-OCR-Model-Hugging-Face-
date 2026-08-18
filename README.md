@@ -1,1 +1,0 @@
-# Fine-tuned-OCR-Model-Hugging-Face-
