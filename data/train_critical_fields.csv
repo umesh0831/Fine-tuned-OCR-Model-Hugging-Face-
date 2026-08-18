@@ -1,0 +1,280 @@
+Filename,Drug Name,Dosage,Raw Segment,Needs Review,Note
+2.jpg,,,,No,No medication (non-prescription document)
+3.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+6.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+8.jpg,"Text: To whom it may concern. As per ICMR guideline, the contacts of COVID +ve cases should be put on HOME ISOLATION even with mild symptoms. It is advised that everybody takes these preventive medications apart from following social distancing, hand hygiene and wearing mask. Rx",400mg,"Text: To whom it may concern. As per ICMR guideline, the contacts of COVID +ve cases should be put on HOME ISOLATION even with mild symptoms. It is advised that everybody takes these preventive medications apart from following social distancing, hand hygiene and wearing mask. Rx: Tab Hydroxychloroquine 400mg once a week",No,
+8.jpg,Vitamin C,1g,Tab Vitamin C one gram once a day,No,"dosage was written in words ('one gram') in the original, converted to 1g"
+8.jpg,Zinc,50mg,Tab Zinc 50mg once a day,No,
+8.jpg,In case of fever,650mg,In case of fever: Tab Crocin/Calpol 650mg SOS,No,
+8.jpg,In case of throat pain and cough,10mg,"In case of throat pain and cough: Tab Cetrizine 10mg once a day, Syrup Alex 2/3 teaspoon 3 times a day",No,
+11.jpg,Trilock,10mg,"Rx: Tab. Trilock 10mg [uncertain], SEA-G03 [barcode/label text]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+11.jpg,Nolium,5mg,"Tab. Nolium (5mg) [uncertain], 1+1+0 [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+11.jpg,Ergot,1mg,"Tab. Ergot 1mg [uncertain], 1+1+1 [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+12.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+13.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+15.jpg,Snmol DS,4mL,"Rx: Syp. Snmol DS, 4mL SOS",No,
+15.jpg,Mucolite LS,2.5mL,"Syp. Mucolite LS, 2.5mL TDS",No,
+17.jpg,[drug name uncertain],5mL,"Rx: Syp [drug name uncertain], 5mL OD [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+17.jpg,Ethlo PO,5mL,"Syp Ethlo PO, 5mL BD [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+17.jpg,Alkem [uncertain],5mL,"Syp Alkem [uncertain], 5mL OD [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+17.jpg,Recoryl 100,5mL,"Syp Recoryl 100, 5mL BD [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+17.jpg,Duolin,2mL,"Nebule Duolin 2mL + Budecort 0.5mg, BD SOS [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+17.jpg,Budecort,0.5mg,"Nebule Duolin 2mL + Budecort 0.5mg, BD SOS [uncertain]",Yes,split from a combined nebulizer solution line
+17.jpg,Dexorange,2mL,"Rx Dexorange, 2mL 1M SOS [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+18.jpg,Cefalexin,250mg,"Cefalexin 250mg/5mL syr, Sig: 10mL 3x a day for 7 days",No,
+18.jpg,Mefenamic Acid,250mg,"Mefenamic Acid 250mg/5mL syr, Sig: 8mL 3x a day",No,
+19.jpg,Amoxil Susp.,125mg,Rx: Amoxil Susp. 125mg,No,
+20.jpg,Ascorbic Acid #30,500mg,"Ascorbic Acid #30, 500mg tab, Sig: once a day",No,
+22.jpg,Hemostan,500mg,"Rx: Hemostan 500mg, #2, 1 tab TID [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+22.jpg,Cotrimoxazole,800mg,"Cotrimoxazole 800mg, 1 tab BID",No,
+23.jpg,Liposomal Amphotericin,50mg,"Rx: Inj. Liposomal Amphotericin, 50mg x 2 vials [6 vials/day] (dose 300mg OD)",No,
+23.jpg,OR Inj. Amphotericin Conventional,50mg,"OR Inj. Amphotericin Conventional, 50mg x 6-8 vials [1 vial/day]",No,
+24.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+26.jpg,Cephalexin,,"Rx: Cephalexin 100/8 [uncertain] cap, Sig: 3.5mL 2x a day x 7 days",Yes,concentration ratio '100/8' and exact dose not confidently parsed; Sig instruction wrongly captured by initial parser
+27.jpg,"Zinc Sulfate drops, Sig",0.5mL,"Zinc Sulfate drops, Sig: 0.5mL once a day",No,
+28.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+30.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+31.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+33.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+37.jpg,Phenytoin Sodium Extended,100mg,"Rx: Phenytoin Sodium Extended, 100mg tid",No,
+39.jpg,Treatment: Inj. Diclofenac,75mg,Treatment: Inj. Diclofenac 75mg IV stat,No,
+39.jpg,Pantoprazole,1mg,Inj. Pantoprazole 1mg IV stat,No,
+40.jpg,Tolbutamide,1000mg,"Rx: Tolbutamide 1000mg tab da no. 30, Sig: 1 od 1 tablet before breakfast",No,
+41.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+43.jpg,Dose,1g,Dose: 1g,No,
+43.jpg,Max dose in 24 hrs,4g,Max dose in 24 hrs: 4g,No,
+45.jpg,Methadone HCl,40mg,"Rx: Methadone HCl 40mg [uncertain], TID PRN pain [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+46.jpg,Augmentin,625mg,"Rx: Tab. Augmentin 625mg, 1-0-1, x5 days, after meals",No,
+46.jpg,Pan-D,40mg,"Tab. Pan-D 40mg, 1-0-0, x5 days, before meals",No,
+47.jpg,Phenytoin Sodium Extended,100mg,"Rx: Phenytoin Sodium Extended, 100mg tid",No,
+48.jpg,,,,No,No medication (non-prescription document)
+49.jpg,Oflazest OZ,,"1. Tab Oflazest OZ (6), 1-1",Yes,"'(6)' is a quantity/duration code, not a dosage strength -- no explicit strength given"
+49.jpg,Azenac MR,,"2. Tab Azenac MR (6), 1-1",Yes,"'(6)' is a quantity/duration code, not a dosage strength -- no explicit strength given"
+49.jpg,Andial,,"3. Tab Andial (5), 2 then 1-1",Yes,"'(5)' is a quantity/duration code, not a dosage strength -- no explicit strength given"
+49.jpg,Zofer,4mg,"4. Tab Zofer 4mg (6), 1-1",No,
+51.jpg,Trixocim,200mg,"Rx: Cap. Trixocim 200mg, #10, 1+0+1, after meals [Bengali instruction, low confidence]",No,
+51.jpg,Dexrozyl,400mg,"Tab. Dexrozyl 400mg, #15, 1+1+1, after meals [Bengali instruction, low confidence]",No,
+51.jpg,Torey,90mg,"Tab. Torey 90mg, #10, 1+0+1, after meals [Bengali instruction, low confidence]",No,
+51.jpg,Nefrom,20mg,"Cap. Nefrom 20mg, #10, Ointment Seelo 15mg [uncertain], 1+0+1, after meals [Bengali instruction, low confidence]",No,
+51.jpg,Ointment Seelo,15mg,"Cap. Nefrom 20mg, #10, Ointment Seelo 15mg [uncertain], 1+0+1, after meals [Bengali instruction, low confidence]",Yes,drug identity uncertain in original transcription; split from combined line
+53.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+54.jpg,T. Ranitidine,150mg,"Rx: T. Ranitidine 150mg, BD, x5 days",No,
+54.jpg,T. Paracetamol,500mg,"T. Paracetamol 500mg, TDS, x5 days",No,
+55.jpg,T. Depletts A,150mg,"Rx: (1) T. Depletts A 150mg, once daily AM",No,
+55.jpg,T. Aztor,80mg,"(2) T. Aztor 80mg, once daily AM",No,
+55.jpg,T. Nitrocontin,2.6mg,"(3) T. Nitrocontin 2.6mg, twice daily [uncertain timing]",No,
+57.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+58.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+62.jpg,Liposomal Amphotericin B,50mg,"Rx: Inj. Liposomal Amphotericin B, 50mg, 6 vials/day (300mg)",No,
+64.jpg,Tr. Belladonna,15mL,"Rx: Tr. Belladonna, 15mL",No,
+64.jpg,Amphogel,120mL,"Amphogel, q.s. ad 120mL",No,
+67.jpg,Losartan,50mg,"Rx: Losartan 50mg, #30",No,
+70.jpg,T. Azee,500mg,"Rx: T. Azee 500mg, 1-0-0, x7 days",No,
+70.jpg,T. Pan,40mg,"T. Pan 40mg, 1-0-0, x7 days",No,
+71.jpg,Naprosyn,500mg,"Rx: Tab. Naprosyn 500mg, #20, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+71.jpg,Sergel,20mg,"Cap. Sergel 20mg, #20, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+71.jpg,Rio. Relax,25mg,"Rio. Relax 25mg, #15, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+71.jpg,Melpred,8mg,"Tab. Melpred 8mg cap, #10, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+71.jpg,Prelica,50mg,"Cap. Prelica 50mg, #20, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+73.jpg,Clopid,75mg,"Rx: Tab. Clopid (75mg), 0+0+0 (after meal), continue",No,
+73.jpg,Atova,10mg,"Tab. Atova (10mg), 0+0+2, continue",No,
+73.jpg,Metacard MR,35mg,"Tab. Metacard MR (35mg) [uncertain], 2+0+2, continue",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+73.jpg,Nitran SR,2.6mg,"Tab. Nitran SR (2.6mg), 2+0+2, continue",No,
+74.jpg,Virux,400mg,"Rx: Tab. Virux 400mg, 2+2+2+2, x7 days",No,
+74.jpg,Finix,20mg,"Tab. Finix 20mg, 2+0+2 (before breakfast) [uncertain], x26 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+74.jpg,GABA-P,50mg,"Cap. GABA-P 50mg, 2+0+2, x2 months",No,
+76.jpg,Montiva,10mg,"Rx: Tab. Montiva (10mg), 0+0+2, x2 months",No,
+76.jpg,Doxiva,200mg,"Tab. Doxiva (200mg), 2+0+2, x2 months",No,
+79.jpg,Falix,500mg,"Tab. Falix (500mg), 2+0+2, 2 months [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+81.jpg,Furotil Plus,250mg,"Rx: Tab. Furotil Plus 250mg, BD, x8 days",No,
+81.jpg,Defcost,6mg,"Tab. Defcost 6mg, BD, x[duration uncertain]",No,
+81.jpg,Maxpro,20mg,"Tab. Maxpro 20mg (before meal), BD, x10 days",No,
+81.jpg,Rilfast,20mg,"Tab. Rilfast 20mg, OD, x5 days",No,
+81.jpg,Naprosyn Plus,500mg,"Tab. Naprosyn Plus 500mg, BD, x10 days",No,
+82.jpg,Betacap TR,40mg,"Rx: Cap. Betacap TR 40mg, 1+0+0, x1 month",No,
+82.jpg,Valex,200mg,"Tab. Valex 200mg, 1+0+0",No,
+82.jpg,If headache: Tab. Migrex,200mg,If headache: Tab. Migrex 200mg,No,
+82.jpg,Deflux,10mg,Tab. Deflux 10mg,No,
+82.jpg,Maxpro,20mg,Tab. Maxpro 20mg (before meal),No,
+83.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+84.jpg,Ramoril Plus 2.5/,12.5mg,"Rx: (1) Tab. Ramoril Plus 2.5/12.5mg, 1+0+0 (before meal), continue",No,
+84.jpg,Amdocal,5mg,"(2) Tab. Amdocal 5mg, 0+0+1, continue",No,
+84.jpg,ATV,10mg,"(3) Tab. ATV 10mg, 0+0+1 (at night), continue",No,
+86.jpg,Doxy,100mg,"(2) Cap. Doxy 100mg, BD",No,
+86.jpg,Metocard,25mg,(7) Cap. Metocard 25mg [uncertain],Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+87.jpg,Paracetamol,250mg,"Rx: Paracetamol 250mg/5mL syrup, 1 tsp every 4 hours, #1",No,
+89.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+90.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+93.jpg,Amoxicillin,50mg,"Rx: Amoxicillin 50mg/mL susp, da 100mL",No,
+94.jpg,Paracetamol,50mg,Rx: Paracetamol - 50mg,No,
+94.jpg,Ibuprofen,150mg,Ibuprofen - 150mg,No,
+95.jpg,D-0118 Amoxicillin,500mg,"Rx: D-0118 Amoxicillin 500mg, #14, Sig: 2x a day x7 days",No,
+95.jpg,D-0119 Mefenamic Acid,500mg,"D-0119 Mefenamic Acid 500mg, #3, for pain",No,
+95.jpg,D-0120 Tranexamic Acid,500mg,"D-0120 Tranexamic Acid 500mg, #1, Sig: 1 cap for bleeding",No,
+96.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+97.jpg,,,,No,No medication (non-prescription document)
+99.jpg,Ambisome,30mg,Rx: Inj. Ambisome 30mg -> 120 [uncertain dose note] [i.e. Inj. Amphotericin],No,
+101.jpg,"numbered list, fragment): (1) Prednisone",40mg,"Rx (numbered list, fragment): (1) Prednisone 40mg [tt uncertain] x1 stat, PO",No,
+102.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+103.jpg,Ephedrex,3.5mL,Rx: Syp. Ephedrex 3.5mL twice (0-0),No,
+103.jpg,Crocin DS,4mL,Syp. Crocin DS 4mL SOS (4mg),No,
+103.jpg,Meftal-P,4mL,Syp. Meftal-P 4mL SOS (6mg),No,
+103.jpg,Ephedrex,4mL,Syp. Ephedrex 4mL twice (0-0),No,
+105.jpg,Amoxicillin [susp/cap uncertain],250mg,"Rx: Amoxicillin [susp/cap uncertain] 250mg [uncertain], 1x a day, Lot no: NG16 [uncertain], Exp date: 10-2022",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+105.jpg,Mefenamic Acid,500mg,"Mefenamic Acid 500mg [uncertain], 1x a day, Lot no: RPF10, Exp date: 07/2023",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+105.jpg,Tranexamic Acid,500mg,"Tranexamic Acid 500mg, once a day, Lot no: WLI0 [uncertain], Exp date: [cut off]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+107.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+109.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+110.jpg,Atenolol,25mg,"Rx: Atenolol 25mg, #30, Sig: Take 1 PO QD",No,
+111.jpg,Augmentin Duo,6mL,"Rx: Syp. Augmentin Duo, 6mL BD, x7 days",No,
+111.jpg,Ambrodil-S,4mL,"Syp. Ambrodil-S, 4mL BD",No,
+111.jpg,LCZ (Levocetirizine,5mg,"Tab. LCZ (Levocetirizine 5mg), 1/2 tab [remainder cut off]",No,
+115.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+116.jpg,Remdesivir,200mg,"Rx: Inj. Remdesivir 200mg IV stat, then 100mg IV OD x 4 days (Total: 6 vials)",No,
+119.jpg,Momoxy,500mg,"Rx: Inj. Momoxy (500mg-8vaicf?) [uncertain], 3mL IV 12 hrly, Heplock",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+119.jpg,Friseum [uncertain],6mL,"Inj. Friseum [uncertain], 6mL stat then [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+119.jpg,Tomoferol [uncertain],2.5mL,"Syp. Tomoferol [uncertain], 2.5mL 2 hrly",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+124.jpg,Stamlo,5mg,"Rx: 1) Tab. Stamlo 5mg, 30 days",No,
+124.jpg,Arvant,5mg,"2) Tab. Arvant 5mg, 30 days",No,
+124.jpg,Thyrox,75mcg,"3) Tab. Thyrox 75mcg, 30 days",No,
+126.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+127.jpg,T-Minic drops,0.3mL,"1. T-Minic drops, 0.3mL-0.3mL-0.3mL",No,
+127.jpg,Arthakind drops,0.4mL,"2. Arthakind drops, 0.4mL-0.4mL-0.4mL",No,
+127.jpg,Aduvent drops,0.8mL,"3. Aduvent drops, 0.8mL-0.8mL-0.8mL, x3 days",No,
+129.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+131.jpg,Ultrafen plus,50mg,"Rx: (1) Tab. Ultrafen plus 50mg, 2+0+1 [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+131.jpg,Bcognit,200mg,"(3) Cap. Bcognit 200mg, 2+0+2 [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+131.jpg,Diclofenac,50mg,"Rx: Tab. Diclofenac 50mg, 2+0+2",No,
+133.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+134.jpg,Hiniox) [uncertain] Amoxicillin,500mg,"Rx: (Hiniox) [uncertain] Amoxicillin 500mg cap, #21",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+135.jpg,Metadate [Methylphenidate],10mg,"Rx: Metadate [Methylphenidate] 10mg, #100 (one hundred), 1-1-1, PO, per day [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+136.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+137.jpg,Paracetamol,500mg,"Rx: Paracetamol 500mg tab, da no. 20",No,
+137.jpg,Rp: Metoclopramide,10mg,"Rp: Metoclopramide 10mg supp., da no. 5",No,
+138.jpg,,,,No,No medication (non-prescription document)
+140.jpg,T. Sompraz,40mg,"Rx: 1. T. Sompraz 40mg, 1-0-0, BF, x7, x1 month",No,
+141.jpg,RBS,124mg,RBS: 124 mg/dl,No,
+142.jpg,Megaclobore [uncertain],4mL,"Rx: (1) Syp. Megaclobore [uncertain], 4mL TID",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+142.jpg,Ibugesic [uncertain],2mL,"(2) Syp. Ibugesic [uncertain], 2mL SOS if temp >102",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+142.jpg,Deriphyllin [uncertain],3.75mg,"(3) Syp. Deriphyllin [uncertain], 3.75mg, x5 days",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+142.jpg,Anmol/rectal Supp,100mg,"(4) Anmol/rectal Supp, 100mg (1) [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+143.jpg,"Taxim O drops, 4 drops",0.4mL,"(2) Taxim O drops, 4 drops (0.4mL-0.4mL), 2 times/day, x3 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+143.jpg,Bonnisan drops,0.5mL,"Bonnisan drops, 0.5mL",No,
+146.jpg,Avil + Solucortef,250mg,"Inj. Avil + Solucortef 250mg, SOS",No,
+146.jpg,Rizek,40mg,"Inj. Rizek 40mg IV, SOS",No,
+152.jpg,Azithromycin,200mg,Rx: Azithromycin 200mg/5mL,No,
+152.jpg,Day 1,15mL,Day 1: 15 mL,No,
+152.jpg,Day 2,7.5mL,Day 2: 7.5 mL,No,
+154.jpg,,,,No,No medication (non-prescription document)
+156.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+158.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+161.jpg,Remdesivir,200mg,"Rx: Inj. Remdesivir 200mg IV, Day 1, followed by 100mg IV for 4 days (Day 2 - Day 5)",No,
+163.jpg,Dispirin,300mg,"Rx: Tab. Dispirin 300mg, [Urdu instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+163.jpg,Panadol,500mg,"Tab. Panadol 500mg, 1x3, 7 days",No,
+165.jpg,CaC Plus,1000mg,"Rx: Tab. CaC Plus 1000mg, 1+1+1",No,
+165.jpg,Resochin,250mg,"Tab. Resochin 250mg, 1+1",No,
+166.jpg,Nise,100mg,"Rx: Tab. Nise 100mg, 0+1+1",No,
+166.jpg,ChewCal,500mg,"Tab. ChewCal 500mg [uncertain], 1+0+1",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+168.jpg,OMEP,20mg,"Cap. OMEP (20mg), 2+0+2, 26 days [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+168.jpg,Rolac,10mg,"Tab. Rolac (10mg), 2+2+2, 6 days [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+168.jpg,Lubistone,8mcg,"Cap. Lubistone (8mcg), 2+2+2, 2 months [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+169.jpg,Fibo [uncertain],4mg,"Tab. Fibo [uncertain] 4mg, 7 days",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+170.jpg,Thyrim,50mcg,"(5) Tab. Thyrim 50mcg, 2+0+0, 8 [duration uncertain]",No,
+170.jpg,Flutica Nasal,,"(7) Flutica Nasal Spray, 2 puffs daily [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+170.jpg,D-Vine 40,000IU,"(8) Cap. D-Vine 40,000 IU, 1 capsule per week [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+171.jpg,Epiclon,5mg,"Tab. Epiclon 5mg, 0+0+2, 1 month (at night)",No,
+171.jpg,Sagdon,10mg,"Tab. Sagdon 10mg, 2+0+2 (Master 20 min prior) (at night)",No,
+171.jpg,Fosamin sosel,3gm,"Tab. Fosamin sosel 3gm, one packet dissolved in water, take as directed avoiding lying down afterward",No,
+172.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+174.jpg,Azalid,500mg,"Rx: Tab. Azalid (500mg), [Bengali dosing, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+175.jpg,CEF-3 DS,400mg,"Rx: Cap. CEF-3 DS (400mg), 1+0+1, 7 days",No,
+175.jpg,Denovo,500mg,"Tab. Denovo 500mg, 1+1+1, after meal, 7 days",No,
+176.jpg,Ribee,500mg,"Rx: Tab. Ribee (500mg), 2+0+1, 5 days [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+176.jpg,Ducen-R,50mg,"Cap. Ducen-R (50mg), 0+0+2, 3 days [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+176.jpg,Fondy,120mg,"Tab. Fondy (120mg), 0+0+2, 3 days [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+177.jpg,Etopira-25/,50mg,"Tab. Etopira-25/50mg, 1+0+2, [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+177.jpg,Tufnil,200mg,"Tab. Tufnil (200mg)/HPR-DS, 1 dose daily [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+180.jpg,Foliron,5mg,"Rx: (I) Tab. Foliron 5mg, 0+2+0, alternate day [Bengali instruction, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+180.jpg,Fluxit,0.5mg,"(II) Tab. Fluxit 0.5mg, 1/2+1/2+0, alternate day [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+180.jpg,Thyrex,50mcg,"(III) Tab. Thyrex 50mcg, 1/2+0+0, alternate day [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+180.jpg,Diazepam,0.5mg,"(V) Tab. Diazepam 0.5mg, 0+0+1/2, alternate day [Bengali]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+180.jpg,Hb,9.2g,Hb: 9.2 g/dL,No,
+181.jpg,Hb,9.30gm,Hb: 9.30 gm/dL,No,
+181.jpg,Thyroxine,50mcg,"Rx: (I) Tab. Thyroxine 50mcg, 2+0+0, [continued fragment]",No,
+181.jpg,Folic,3mg,"(II) Tab. Folic 3mg, 0+2+0, 6 months [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+181.jpg,Ovseril [uncertain],25mg,"(III) Tab. Ovseril [uncertain] 25mg, 0+0+2, 6 months",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+181.jpg,Bopam,3mg,"(V) Tab. Bopam 3mg, 0+0+2, 6 months",No,
+181.jpg,Rixol [uncertain],160mg,"(VI) Tab. Rixol [uncertain] 160mg, 2+0+0, 5 months [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+182.jpg,Bepam,3mg,"(II) Tab. Bepam 3mg, 0+0+2",No,
+183.jpg,Rofucur,500mg,"Rx: Tab. Rofucur (500mg), 2+0+2, 9 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+183.jpg,Enorix-M,10mg,"Tab. Enorix-M (10mg), 2+0+2, 2 days",No,
+183.jpg,Biofol,5mg,"Tab. Biofol (5mg), 0+2+0, 2 days",No,
+183.jpg,Traayl,500mg,"Cap. Traayl (500mg), 2+2+2, 20 days",No,
+186.jpg,Onidon [uncertain],10mg,"Rx: (1) Onidon [uncertain] 10mg, 1+1+1, 20 days",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+186.jpg,Telazin [uncertain],2mg,"(2) Telazin [uncertain] 2mg, 1/2-1-1/2, 60 days",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+186.jpg,Paricel,20mg,"(3) Paricel 20mg, 1+0+1, 60 days",No,
+186.jpg,Bekbo,5mg,"(4) Bekbo 5mg, 1+0+1, 20 days",No,
+186.jpg,"Gravilac, 2+2+",2mL,"Cap. Gravilac, 2+2+2mL [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+187.jpg,Cefixime-A,200mg,"Rx: Cap. Cefixime-A (200mg), 2+0+2, 9 days [Bengali: after meal]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+187.jpg,Omirazol,20mg,"Cap. Omirazol (20mg), 2+0+2, 20 days [Bengali: half hour before breakfast/dinner]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+187.jpg,Bizoran (5/,20mg,"Tab. Bizoran (5/20mg), 0+0+2, at night",No,
+187.jpg,Lacon,10mg,"Tab. Lacon (10mg), 2+0+2, 6 days",No,
+188.jpg,Rupa,10mg,"Tab. Rupa (10mg), 0+0+2, 28 days",No,
+188.jpg,Airflow,10mg,"Tab. Airflow (10mg), 0+0+2, 28 days",No,
+188.jpg,Deflacort,24mg,"Tab. Deflacort (24mg), 2+0+0 (alternate day), 6 days",No,
+188.jpg,Rivotril,0.5mg,"Tab. Rivotril (0.5mg), 0+0+2, at night if needed",No,
+188.jpg,Suppo. Feva,500mg,"Suppo. Feva (500mg), use if body temp >100F",No,
+188.jpg,Suppo. Voltalin,50mg,"Suppo. Voltalin (50mg), use if pain increases",No,
+190.jpg,Linatab,5mg,"Tab. Linatab (5mg), 0+2+0 (morning)",No,
+190.jpg,Cidip,10mg,"Tab. Cidip (10mg), 2+0+2",No,
+190.jpg,Plagrin,75mg,"Tab. Plagrin (75mg), 0+2+0 (morning)",No,
+190.jpg,Liptor,10mg,"Tab. Liptor (10mg), 0+0+2 (morning)",No,
+190.jpg,Othera,10mg,"Tab. Othera (10mg), 2+0+0, 28 days",No,
+191.jpg,Xyzal [uncertain],25mg,"Rx: Tab. Xyzal [uncertain] 25mg [uncertain], 0+0+2, 28 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+191.jpg,Napa,500mg,"Tab. Napa 500mg, 2+2+2, SOS max 2 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+194.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+196.jpg,Terbin,250mg,"Rx: Tab. Terbin (250mg), 2+0+0, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+196.jpg,Alanup,10mg,"Tab. Alanup (10mg), 0+0+2, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+196.jpg,Clopirox,,"Clopirox Shampoo, apply to affected area 5 min then wash, 3 days/week, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+196.jpg,Intimate,10mg,"Tab. Intimate (10mg), 0+0+2, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+199.jpg,T. Ciddip,10mg,"Rx: (3) T. Ciddip (10mg), 2+0+2, 6 months",No,
+199.jpg,T. Clognil,75mg,"(4) T. Clognil (75mg), 0+2+0, 6 months",No,
+199.jpg,T. Taven,10mg,"(5) T. Taven (10mg), 0+0+2, 6 months",No,
+199.jpg,T. M-Kast,10mg,"(6) T. M-Kast (10mg), 0+0+2, 6 months",No,
+199.jpg,T. Doriva,40mg,"(7) T. Doriva (40mg), 0+0+2, 6 months",No,
+201.jpg,Empanol,10mg,"(2) Tab. Empanol (10mg), 2+0+0, morning [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+201.jpg,Ecosprin,75mg,"(3) Tab. Ecosprin (75mg), 0+2+0 [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+201.jpg,Nidocard Retd,2.6mg,"(4) Tab. Nidocard Retd (2.6mg), 2+2+0, morning [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+201.jpg,Metacard MR,25mg,"(5) Tab. Metacard MR (25mg), 2+0+2, morning",No,
+201.jpg,Bislol,2.5mg,"(6) Tab. Bislol (2.5mg), 0+0+2, morning",No,
+201.jpg,Atova,10mg,"(7) Tab. Atova (10mg), 0+0+2 [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+202.jpg,Xyril,10mg,"Tab. Xyril (10mg), 0+0+2, 3 months",No,
+203.jpg,Fuclar,250mg,"Rx: Tab. Fuclar (250mg), 2+0+2, [Bengali, appears crossed out/discontinued]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+203.jpg,Rivo,0.5mg,"Tab. Rivo (0.5mg), x10, 0+0+2, [duration uncertain]",No,
+203.jpg,Dexogut,30mg,"Cap. Dexogut (30mg), x20, 2+0+2, half hour before meals",No,
+204.jpg,Kriptonite,,"(2) Kriptonite Gel, apply at night on face",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+204.jpg,Photoderm Spot Age Sun Block,,"(3) Photoderm Spot Age Sun Block Cream, apply on face 20-30 min before going out, 2x",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+204.jpg,Florinz,5mg,"(5) Tab. Florinz 5mg, 2+0+2, 1 month",No,
+205.jpg,Pevitin,,"2. Pevitin Cream, apply on affected area BD [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+205.jpg,Solas,100mg,"3. Tab. Solas 100mg, 2+0+2, continue",No,
+207.jpg,Thyrox,50mcg,"Rx: Tab. Thyrox 50mcg, 2+0+0, [Bengali duration, low confidence], 6 months",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+207.jpg,Cornut,500mg,"Tab. Cornut 500mg, 2+0+2, [Bengali duration, low confidence], 6 months",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+208.jpg,Cetaclar,250mg,"Rx: (1) Tab. Cetaclar 250mg, 2+0+2, continue",No,
+208.jpg,Xalcort,24mg,"(2) Tab. Xalcort 24mg, 2+0+0, continue",No,
+209.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+210.jpg,Modipran,20mg,"Rx: Cap. Modipran 20mg, 2+0+2, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+210.jpg,Mirtaz,15mg,"Tab. Mirtaz 15mg, 0+0+1, at night",No,
+210.jpg,Indever,40mg,"Tab. Indever 40mg, 2+0+2, [Bengali duration, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+210.jpg,Laxyl,3mg,"Tab. Laxyl 3mg, 0+0+2/3, before sleeping [Bengali, low confidence]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+210.jpg,Cytozen,25mg,"Cap. Cytozen 25mg, 2+0+0",No,
+212.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+213.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+214.jpg,Tufnil,200mg,"Tab. Tufnil (200mg)/Nomi [uncertain]: take 1 tablet as soon as headache starts; if not relieved after 2 hours, take 1 more tablet",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+215.jpg,Betacard,50mg,"Rx: Tab. Betacard (50mg), 1/2+0+1/2, 3 months",No,
+215.jpg,Clognil,75mg,"Tab. Clognil (75mg), 0+1+0, 3 months",No,
+215.jpg,Emixlef,200mg,"Cap. Emixlef (200mg), 1+0+1, 6 days",No,
+215.jpg,Sompraz,20mg,"Tab. Sompraz (20mg), 1+0+1, breakfast-dinner, 9 days [uncertain]",Yes,source image already flagged low-confidence/Bengali/fragment during transcription -- needs a human who reads Bengali or can re-examine the original image
+216.jpg,Sentix,0.5mg,"Rx: (5) Tab. Sentix 0.5mg, 2+0+0, 2 months",No,
+216.jpg,Ludiomil,25mg,"(1) Tab. Ludiomil 25mg, 2 tabs at night, 2 months",No,
+216.jpg,Duloxen,30mg,"(6) Tab. Duloxen 30mg, 0+0+2, 2 months",No,
+216.jpg,Emep,20mg,"(6) Cap. Emep 20mg, 2+0+2 (before breakfast), 2 months",No,

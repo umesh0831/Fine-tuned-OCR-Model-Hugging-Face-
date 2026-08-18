@@ -1,0 +1,58 @@
+Filename,Drug Name,Dosage,Raw Segment,Needs Review,Note
+1.jpg,Digoxin,0.125mg,Rx: Digoxin 0.125mg,No,
+10.jpg,Paracetamol,1gm,"Rx: Paracetamol 1gm/5mL susp, Sig: 1mL every [illegible]",No,
+10.jpg,Phenylpropanolamine HCl,1mL,"Phenylpropanolamine HCl Drops, Sig: 1mL 3x a day",No,
+25.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+32.jpg,"[drug name uncertain, reads approximately 'Zalphenol'",10g,"Rx: [drug name uncertain, reads approximately 'Zalphenol' 10g]",No,
+36.jpg,,,,No,No medication (non-prescription document)
+60.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+66.jpg,[drug name uncertain],120mg,"1) [drug name uncertain] 120mg, 1x1x5",No,
+80.jpg,Phosome (Liposomal Amphotericin) / Ambisome,300mg,"Rx: Inj. Phosome (Liposomal Amphotericin) / Ambisome, 300mg IV (in 5% Dextrose), OD - one dose per day x 15 days [uncertain]",No,
+92.jpg,Sildenafil,25mg,3. Rx: Sildenafil 25mg (Milestral),No,
+106.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+108.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+114.jpg,Hb,9.8g,Hb: 9.8 g/dL,No,
+114.jpg,Cefetac,5mL,"Rx: Syp. Cefetac (5mL/100mg), 3mL BD x 7 days",No,
+114.jpg,RB Tone Kid,5mL,"Syp. RB Tone Kid (5mL/80mg), 2.5mL OD x 2 months",No,
+114.jpg,Witoryl,3mL,"Syp. Witoryl, 3mL x 3 days [dosing notation ambiguous]",No,
+120.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+122.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+132.jpg,Drug Prescription: Syp. Omesit,4mL,Drug Prescription: Syp. Omesit 4mL x 2 doses (30 min before meals),No,
+132.jpg,T. Lanzol,15mg,"T. Lanzol 15mg, 1-0-1, x 3 days",No,
+132.jpg,Enterogermina,5mL,Enterogermina 5mL once in a day x 5 days,No,
+132.jpg,Relent plus,2.5mL,"Syp. Relent plus, 2.5mL-0-2.5mL x 3 days",No,
+145.jpg,Cloxacillin,500mg,"Rx: Cloxacillin [uncertain] 500mg every 6 hrs, #14",Yes,drug identity itself uncertain in original transcription
+147.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+151.jpg,Berdil,20mg,"Rx: Berdil [uncertain] 20mg, #120, 20mg P.O. Q6h [uncertain]",Yes,drug identity itself uncertain in original transcription
+151.jpg,Ferrous Sulfate,300mg,"Ferrous Sulfate 300mg, #100, 300mg P.O. TID with meals",No,
+151.jpg,Humulin N,30units,"Humalin N, 30 units SQ [uncertain]",Yes,"SAFETY-CRITICAL: insulin dose, keep flagged for verification regardless of legibility"
+157.jpg,Acetaminophen,650mg,"Rx: Acetaminophen 650mg, q4h PRN",No,
+157.jpg,To treat coronary artery disease: Aspirin,81mg,To treat coronary artery disease: Aspirin 81mg PO daily,No,
+157.jpg,Clopidogrel,75mg,Clopidogrel 75mg PO daily,No,
+159.jpg,Ferrous Sulfate,4mL,Rx: Ferrous Sulfate 4mL PO TID,No,
+164.jpg,Arinac,5mg,"Rx: Syp. Arinac 5mg, 1-1-1, 14 days",No,
+164.jpg,Acefyl Cough,100mg,"Syp. Acefyl Cough 100mg, 1-1-1, 2 weeks",No,
+167.jpg,Myolax,50mg,"Rx: Tab. Myolax (50mg), 2+0+2, [Bengali duration, low confidence]",No,
+167.jpg,Torsid,5mg,"Tab. Torsid (5mg), 2+0+0, [Bengali duration, low confidence]",No,
+167.jpg,Furocef,500mg,"Tab. Furocef (500mg), 2+0+2, [Bengali duration, low confidence]",No,
+167.jpg,Olmesan,20mg,"Tab. Olmesan (20mg), 0+0+2, [Bengali duration, low confidence]",No,
+167.jpg,Maxpro Mups,30mg,"Tab. Maxpro Mups (30mg), 2+0+2, [Bengali duration, low confidence]",No,
+173.jpg,Costan,20mg,"Rx: (1) Tab. Costan 20mg, 2+0+0, [Bengali duration, low confidence]",No,
+173.jpg,Xelpro MUPS,20mg,"(2) Tab. Xelpro MUPS 20mg, 2+0+2, [Bengali duration, low confidence]",No,
+173.jpg,Fondy,120mg,"(3) Tab. Fondy 120mg, 0+0+2, [Bengali duration, low confidence]",No,
+173.jpg,Theamit Inhaler,250mcg,"(4) Theamit Inhaler 250mcg, 2 puffs twice daily, Uptech Go Spacer",No,
+173.jpg,Reversact,10mg,"(6) Tab. Reversact 10mg, 0+0+2, [Bengali duration, low confidence]",No,
+173.jpg,Topium Rotacap,18mcg,"(7) Topium Rotacap 18mcg, Ezyhaler, [Bengali instruction, low confidence]",No,
+173.jpg,Benzofil,200mg,"(8) Tab. Benzofil 200mg, 0+0+2, [Bengali duration, low confidence]",No,
+185.jpg,Exor,20mg,"Rx: Cap. Exor 20mg, 2+0+2, [Bengali duration, low confidence]",No,
+185.jpg,Deflux,10mg,"Tab. Deflux 10mg, 2+2+2, [Bengali duration, low confidence]",No,
+185.jpg,Q10,30mg,"Cap. Q10 (30mg), 2+0+2, [Bengali duration, low confidence]",No,
+189.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+197.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+198.jpg,Sugatral,50mg,"Tab. Sugatral (50mg) [uncertain], dosing uncertain",Yes,"drug identity itself uncertain in original transcription; part of a diabetes chart, verify carefully"
+200.jpg,Actrapid,100IU,"Rx: Inj. Actrapid 100 IU, 8+6+6 (x2), before meals [uncertain]",Yes,"SAFETY-CRITICAL: insulin dose, keep flagged for verification"
+200.jpg,Insulatard,100IU,"Inj. Insulatard 100 IU, 8+0+8 (x2), before meals [uncertain]",Yes,"SAFETY-CRITICAL: insulin dose, keep flagged for verification"
+211.jpg,Nobesit,500mg,"Rx: Tab. Nobesit 500mg, 0+0+1, for 21 days",No,
+211.jpg,Comprid,30mg,"Tab. Comprid 30mg [uncertain], 1+0+0, for 21 days (before meal)",Yes,drug identity itself uncertain in original transcription
+211.jpg,Dextac,30mg,"Cap. Dextac 30mg [uncertain], 1+0+1, for 21 days",Yes,drug identity itself uncertain in original transcription
+211.jpg,Cilocab,5mg,"Tab. Cilocab 5mg [uncertain], 0+0+1, continue",Yes,drug identity itself uncertain in original transcription

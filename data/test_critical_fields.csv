@@ -1,0 +1,63 @@
+Filename,Drug Name,Dosage,Raw Segment,Needs Review,Note
+5.jpg,,,,No,No medication (non-prescription document)
+16.jpg,,,,No,No medication (non-prescription document)
+4.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+7.jpg,,,,No,No medication (non-prescription document)
+14.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+38.jpg,Oxycontin,80mg,Rx: Oxycontin 80mg #90,No,
+34.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+21.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+42.jpg,Actemra,400mg,"Inj Actemra 400mg OD x 2, with a gap of 2 days",No,
+35.jpg,Xgeva,120mg,Inj Xgeva - alt # (120),No,"unit inferred: Xgeva has one standard dose (120mg SC), original omitted unit"
+44.jpg,Azomac,30mg,"Rx: Syp. Azomac (30mg) [Bengali dosage text, low confidence]",No,
+56.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+63.jpg,Metryl,400mg,"Rx 2: Tab. Metryl 400mg [uncertain], [Bengali instruction, low confidence]",No,
+63.jpg,Anix,20mg,"Rx 3: Tab Anix 20mg [uncertain], [Bengali instruction, low confidence]",No,
+68.jpg,Erythromycin ethylsuccinate,400mg,Rx: Erythromycin ethylsuccinate 400 mg/5 mL,No,
+72.jpg,Fexo,120mg,"Tab. Fexo (120mg), [Bengali dosing, low confidence]",No,
+72.jpg,AU,,"Cap AU-20 [uncertain], [Bengali dosing, low confidence]",Yes,
+75.jpg,Maxima,400mg,"Inj. Maxima 400mg, 1 vial IV stat",No,
+77.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+78.jpg,"le (Morning/Noon/Night, Before/After meal, Duration",50mg,"Medicine table (Morning/Noon/Night, Before/After meal, Duration): Cap NEUCABA (50mg) - 0,0,1 - after meal - 2 mo",No,
+78.jpg,SOLBION,,"Tab SOLBION - 0,0,1 - after meal - 1 mo",Yes,no dosage strength was legible in the original prescription
+78.jpg,DEXLAN,30mg,"Cap DEXLAN (30mg) - 1,0,0(1) - before meal - 2 mo",No,
+78.jpg,ULRIF,,"Tab ULRIF - variable dosing per notation, [Bengali detail, low confidence]",Yes,
+78.jpg,THYROX,25mg,"Tab THYROX (25mg) - 1,0,0 - before meal, half hour before - 1 month",No,
+78.jpg,VITCOFOL,1 amp,"Inj VITCOFOL 1 amp - IM weekly, [Bengali instruction, low confidence]",No,
+98.jpg,O.D. Cleaf 1/3-1/3-1/3,1.5mL,O.D. Cleaf 1/3-1/3-1/3 (1.5mL),No,
+104.jpg,,,,No,No medication (non-prescription document)
+117.jpg,Liposomal Amphotericin B,350mg,"Rx: Inj. Liposomal Amphotericin B, 350mg x daily x 4 wks",No,
+117.jpg,OR Inj. Amphotericin B,70mg,"OR Inj. Amphotericin B, 70mg x daily x 4 wks [dose uncertain]",No,
+117.jpg,OR Inj. Isavuconazole,200mg,"OR Inj. Isavuconazole 200mg 1/2 1-1-1 x 2 weeks, OR capsule Isavuconazole 200mg 1-0-1 x 2 days",No,
+148.jpg,,,,Yes,Parser found no drug-like segment -- needs manual extraction
+149.jpg,,,,No,No medication (non-prescription document)
+155.jpg,OR Inj. (conventional) Amphotericin B,50mg,"OR Inj. (conventional) Amphotericin B, 50mg IV OD x 2 wks",No,
+160.jpg,Betaloc,100mg,Rx: Betaloc 100mg - 1 tab BID,No,
+160.jpg,Dorzolamidum,10mg,Dorzolamidum 10mg - 1 tab BID,No,
+160.jpg,Cimetidine,50mg,Cimetidine 50mg - 2 tabs TID,No,
+160.jpg,Oxprelol,50mg,Oxprelol 50mg - 1 tab QD,No,
+162.jpg,Dose,350mg,"Dose: 350mg, 7 vials",No,
+178.jpg,Byloza,20mg,"Tab. Byloza (20mg), 0+0+2 - 20 days",No,
+179.jpg,Hb,9.59gm,Hb: 9.59 gm/dL,No,
+179.jpg,Folic acid,5mg,"Rx: (i) Tab. Folic acid 5mg, 0+0+2, [Bengali instruction, low confidence]",No,
+179.jpg,Thyrox,50mcg,"(ii) Tab. Thyrox 50mcg, [Bengali instruction, low confidence]",No,
+184.jpg,Cef-3 DS,400mg,"Rx: Cap. Cef-3 DS (400mg), 2+0+2 - 7 days",No,
+184.jpg,Pluclox,500mg,"Cap. Pluclox (500mg), 2+2+2 - 7 days",No,
+184.jpg,Exium Mups,20mg,"Tab. Exium Mups (20mg), 2+0+2 - 20 days",No,
+184.jpg,Napa one,1gm,"Tab. Napa one (1gm), 2+2+2 - 5 days",No,
+184.jpg,Don-A,10mg,"Tab. Don-A (10mg), 2+2+2 - 5 days",No,
+184.jpg,Ceevit,250mg,"Tab. Ceevit (250mg), 2+0+2 - 20 days",No,
+184.jpg,Thyrin,75mg,"Tab. Thyrin (75mg), 2+0+0 - 5 days [uncertain]",No,
+184.jpg,Bopam,3mg,"Tab. Bopam (3mg), 0+0+2 - 7 days",No,
+184.jpg,Diclofen,50mg,"Supp. Diclofen (50mg), [Bengali instruction, low confidence]",No,
+184.jpg,Filmet,400mg,"Tab. Filmet (400mg), 2+0+2 - 5 days",No,
+193.jpg,Cefotil plus,500mg,"Rx: Tab. Cefotil plus 500mg, [Bengali dosage, low confidence]",No,
+193.jpg,Tonax,10mg,"Tab. Tonax 10mg, [Bengali dosage, low confidence]",No,
+193.jpg,Rummo,40mg,"Tab. Rummo 40mg, [Bengali dosage, low confidence]",No,
+193.jpg,Phyloren DS,500mg,"Cap. Phyloren DS 500mg, [Bengali dosage, low confidence]",No,
+193.jpg,Cevit,250mg,"Tab. Cevit 250mg, [Bengali dosage, low confidence]",No,
+193.jpg,Xetril,0.5mg,"Tab. Xetril 0.5mg, [Bengali dosage, low confidence]",No,
+193.jpg,Exylite,10mg,"Tab. Exylite 10mg, [Bengali dosage, low confidence]",No,
+195.jpg,D-VINE,40000IU,"(6) Cap. D-VINE 40,000 IU, 1 capsule, [Bengali instruction, low confidence]",No,
+206.jpg,Mycofree,250mg,"Rx: (1) Tab. Mycofree 250mg, 2+0+1, 20 days [uncertain]",No,
+206.jpg,Fexten,120mg,"(2) Tab. Fexten 120mg, 2+0+1, 20 days [uncertain]",No,
